@@ -1,4 +1,4 @@
-// 1) Using for...in loop
+// 1) Using for..in loop
 for (let key in rd) {
   console.log(key, ":", rd[key]);
 }
