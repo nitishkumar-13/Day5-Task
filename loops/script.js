@@ -1,4 +1,11 @@
-var json = [{ name: "Nitishkumar S", mail: "nitishkumars1302@gmail.com" }];
+var json = [
+  {
+    name: "Nitishkumar S",
+    mail: "nitishkumars1302@gmail.com",
+    course: "MERN Fullstack developer",
+    msg: "Hi i'm Nitish",
+  },
+];
 
 //for loop
 for (var i = 0; i < json.length; i++) {
@@ -6,6 +13,7 @@ for (var i = 0; i < json.length; i++) {
 
   console.log(obj.name);
   console.log(obj.mail);
+  console.log(obj.course);
 }
 
 //for Each
